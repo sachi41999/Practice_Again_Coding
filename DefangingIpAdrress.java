@@ -13,6 +13,11 @@ public class DefangingIpAdrress{
         sc.close();
     }
 
+    //alternate solution
+    // public String modifyDefangingIPAddress(String adress){
+    //     return adress.replaceAll(".", "[.]")
+    // }
+
     public String modifyDefangingIPAddress(String address){
         String new_address="";
         for(int i=0;i<address.length();i++){
