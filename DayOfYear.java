@@ -6,6 +6,7 @@ public class DayOfYear {
         String date=sc.nextLine();
         DayOfYear doy=new DayOfYear();
         System.out.println(doy.dayOfYear(date));
+        sc.close();
     }
 
 
